@@ -1,0 +1,62 @@
+.name{
+    color: red;
+    font-size: 50px;
+    text-align: center;
+}
+.images{
+    justify-content: space-around;
+}
+.image-container{
+    height:500px;
+    width: 350px;;
+    position: relative;
+    margin-left: 10%;
+    margin-top: 3%;
+}
+.{
+    height:100%;
+    width:50%;
+    position: absolute;
+    margin-left:10%;
+    margin-top: 3%;
+}
+.image-container img{
+    height:100%;
+    width:100%;
+    box-shadow: 0 0 20px 9px aqua;
+}
+.fade::after{
+    content:"100rav Patel";
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    background:black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+.fade:hover::after{
+  opacity: 1;
+}
+.maindiv{
+    display: flex;
+}
+.attach{
+    text-align: justify;
+}
+.account{
+    margin-left:12%;
+    margin-top: 5%;
+    font-size: 30px;
+    color: green;
+    margin-top: ;
+}
+.account a{
+    font-size:20px;
+}
