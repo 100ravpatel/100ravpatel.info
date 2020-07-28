@@ -14,7 +14,7 @@
     height:100%;
     width:100%;
     border-radius: 10px;
-    box-shadow: 0 0 20px 9px rgb(62, 216, 48);
+    box-shadow: 0 0 20px 9px rgb(6, 114, 78);
 }
 .fade::after{
     content:"Saurav Patel";
@@ -45,7 +45,7 @@
     border-radius: 10px;
     display: flex;
     position: absolute;
-    background-color:aqua;
+    background-color:rgb(173, 241, 209);
     right: 0;
     left: 0;
     top: 0;
@@ -63,7 +63,7 @@ Copy Text
     margin-left:12%;
     margin-top:1.3%;
     font-size: 30px;
-    color: green;
+    color: red;
     margin-top: ;
 }
 .account a{
