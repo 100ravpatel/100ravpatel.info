@@ -1,8 +1,4 @@
-.name{
-    color: red;
-    font-size: 50px;
-    text-align: center;
-}
+
 .images{
     justify-content: space-around;
 }
@@ -12,14 +8,17 @@
     position: relative;
     margin-left: 10%;
     margin-top: 3%;
+    border-radius: 10px;
 }
 .image-container img{
     height:100%;
     width:100%;
-    box-shadow: 0 0 20px 9px aqua;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 9px rgb(62, 216, 48);
 }
 .fade::after{
-    content:"100rav Patel";
+    content:"Saurav Patel";
+    font-family: 'Times New Roman', Times, serif;
     color: aqua;
     display: flex;
     justify-content: center;
@@ -33,19 +32,36 @@
     left: 0;
     opacity: 0;
     transition: opacity 1s ease;
+    border-radius: 10px;
 }
 .fade:hover::after{
   opacity: 1;
 }
 .maindiv{
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 900px;
+    border-radius: 10px;
     display: flex;
+    position: absolute;
+    background-color:aqua;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(122,9,9,1);
+-moz-box-shadow: 10px 10px 5px 0px rgba(122,9,9,1);
+box-shadow: 10px 10px 5px 0px rgba(122,9,9,1);
+Copy Text
 }
 .attach{
     text-align: justify;
 }
 .account{
     margin-left:12%;
-    margin-top: 1.3%;
+    margin-top:1.3%;
     font-size: 30px;
     color: green;
     margin-top: ;
